@@ -1,8 +1,8 @@
 // CSSセレクタを使ってDOMツリー中のh1要素を取得する
 const heading = document.querySelector("h1");
-// h2要素に含まれるテキストコンテンツを取得する
+// h1要素に含まれるテキストコンテンツを取得する
 const headingText = heading.textContent;
-console.log(headingText)
+console.log(headingText);
 
 // button要素を作成する
 const button = document.createElement("button");
